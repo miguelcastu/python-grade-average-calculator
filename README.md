@@ -24,4 +24,4 @@ The program allows the user to:
 
 ## ▶️ Run the Program
 ```bash
-python calculadora_promedios.py
+python SintaxisPython1.py
