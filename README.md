@@ -1,27 +1,21 @@
-# 🧮 Grade Average Calculator in Python
+# Grade Average Calculator — Python Foundations
 
-This project implements a grade average calculator using **structured programming** in Python.
+A function-based console exercise collecting subjects and grades, validating
+numeric grades between 0 and 10, computing an average and reporting pass/fail
+and highest/lowest results.
 
-The program allows the user to:
-- Enter subjects and their corresponding grades
-- Validate numerical input (0–10)
-- Compute the overall average
-- Identify **passed** and **failed** subjects
-- Find the **highest** and **lowest** grade
-- Display a complete summary report
-- Organize logic using functions and lists
+[Engineering portfolio](https://github.com/miguelcastu/miguelcastu) · [Project directory](https://github.com/miguelcastu/miguelcastu/blob/main/PROJECTS.md)
 
----
+## Run
 
-## 📌 Implemented Functions
-- `ingresar_calificaciones()` – input collection  
-- `calcular_promedio()` – average calculation  
-- `determinar_estado()` – pass/fail classification  
-- `encontrar_extremos()` – min/max detection  
-- `main()` – program controller  
+With Python 3, from the repository root:
 
----
-
-## ▶️ Run the Program
-```bash
+```shell
 python SintaxisPython1.py
+```
+
+The Spanish interface is implemented by `ingresar_calificaciones()`,
+`calcular_promedio()`, `determinar_estado()`, `encontrar_extremos()` and `main()`.
+Data is held in lists during one session. There is no persistence, web interface
+or automated test suite. The exercise demonstrates structured programming rather
+than a maintained grading product.
